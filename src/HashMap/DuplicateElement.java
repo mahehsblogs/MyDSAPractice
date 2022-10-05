@@ -2,7 +2,7 @@ package HashMap;
 
 import java.util.HashMap;
 import java.util.Scanner;
-
+//finding duplicates elements into the arrays
 public class DuplicateElement {
     private static int duplicateElement(int[] arr, int n){
         HashMap<Integer, Integer> mp = new HashMap<>();
