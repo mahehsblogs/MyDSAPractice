@@ -7,9 +7,6 @@ public class DuplicateElement {
     private static int duplicateElement(int[] arr, int n){
         HashMap<Integer, Integer> mp = new HashMap<>();
         for (int i = 0; i < n; i++){
-            if(mp.containsKey(arr[i])){
-
-            }
         }
         return -1;
     }

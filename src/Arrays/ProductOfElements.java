@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class ProductOfElements {
 
-    private static void pElements(int arr[], int n) {
+    private static void pElements(int[] arr, int n) {
         if (n == 1) {
             System.out.print(0);
             return;
         }
 
-        int start[] = new int[n];
-        int end[] = new int[n];
-        int prod[] = new int[n];
+        int[] start = new int[n];
+        int[] end = new int[n];
+        int[] prod = new int[n];
         start[0] = 1;
         end[n - 1] = 1;
 
