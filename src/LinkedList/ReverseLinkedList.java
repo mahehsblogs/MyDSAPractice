@@ -2,9 +2,11 @@ package LinkedList;
 
 public class ReverseLinkedList {
     static Node head;
+    //creating a node class and initialize the data and next pointer
     private static class Node{
         int data;
         Node next;
+//        creating a constructor of Node class
         public Node(int data){
             this.data = data;
             this.next = null;
