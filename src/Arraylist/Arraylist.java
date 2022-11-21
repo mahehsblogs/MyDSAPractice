@@ -1,10 +1,12 @@
-package ArrayList;
+package Arraylist;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ArrayList {
+public class Arraylist {
     public static void main(String[] args) {
-        java.util.ArrayList<Integer> list = new java.util.ArrayList<>();
+//        java.util.ArrayList<Integer> list = new java.util.ArrayList<>();
+        ArrayList<Integer>list = new ArrayList<>();
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
 

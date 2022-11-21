@@ -38,10 +38,10 @@ public class ReverseLinkedList {
 
     public static void main(String[] args) {
         ReverseLinkedList lists = new ReverseLinkedList();
-        lists.head = new Node(85);
-        lists.head.next = new Node(15);
-        lists.head.next.next = new Node(4);
-        lists.head.next.next.next = new Node(20);
+        head = new Node(85);
+        head.next = new Node(15);
+        head.next.next = new Node(4);
+        head.next.next.next = new Node(20);
 
         lists.printList(head);
         head = lists.reverse(head);
