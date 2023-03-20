@@ -1,18 +1,24 @@
 package Arrays;
 
-import java.util.Scanner;
+import java.util.*;
+import java.util.PriorityQueue;
 
 public class test {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        int[] arr = new int[n];
-        for(int i = 0; i< n; i++){
-            arr[i] = scn.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int l = sc.nextInt();
+        String[] strings = new String[n];
+        for (int i = 0; i < n; i++) {
+            strings[i] = sc.next();
         }
+        sc.close();
 
-        for(int i = n-1; i >=0; i--){
-            System.out.print(arr[i]+" ");
+        Arrays.sort(strings);
+        StringBuilder sb = new StringBuilder();
+        for (String s : strings) {
+            sb.append(s);
         }
+        System.out.println(sb.toString());
     }
 }
